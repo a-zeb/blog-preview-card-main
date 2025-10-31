@@ -25,7 +25,7 @@ span {
     border-radius: 2em;
     width: 30em;
     height: 40em;
-    padding: 1em;
+    padding: 2em;
     justify-content: space-evenly;
     align-self: center;
 }
@@ -37,9 +37,10 @@ span {
 }
 
 .bottom-image {
-    height: 1em;
-    width: 1em;
+    height: 2em;
+    width: 2em;
     border-radius: 2em;
+    padding: 1em;
 }
 
 .user-box {
