@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    background: hsl(47, 88%, 63%);
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+span {
+    background: hsl(47, 88%, 63%);
+    height: 1.5em;
+    width: 7em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+}
+
+.qr-outter-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2em;
+    width: 30em;
+    height: 40em;
+    padding: 1em;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.top-image {
+    flex-grow: fill;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.bottom-image {
+    height: 1em;
+    width: 1em;
+    border-radius: 2em;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: row;
+}
